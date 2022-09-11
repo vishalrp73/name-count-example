@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Count</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="./app.js" />
+</head>
+<body>
+    <div class="app-container">
+        <div class="result-wrapper">
+            <h1 id="count-result">Current name count: </h1>
+
+            <div class="names-container">
+                <div class="name-box">
+                    <h1>Correct names:</h1>
+                    <p id="correct-names"></p>
+                </div>
+                <div class='name-box'>
+                    <h1>Incorrect names:</h1>
+                    <p id="incorrect-names"></p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="input-title">Input names below:</h1>
+        <div class="input-container">
+            <input type="text" id="user-input" />
+            <button type="button" onclick="checkNames()">Count</button>
+        </div>
+
+    </div>
+</body>
+</html>
