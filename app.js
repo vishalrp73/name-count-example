@@ -37,4 +37,6 @@ function checkNames() {
     document.getElementById('count-result').innerHTML = 'Number of correct names:' + correctNames.length;
     document.getElementById('correct-names').innerHTML = correctNamesFormatted;
     document.getElementById('incorrect-names').innerHTML = incorrectNamesFormatted;
+    // if you ignore the formatNames function, replace correctNamesFormatted and incorrectNamesFormatted
+    // with the correctNames and incorrectNames array variables respectively
 }
